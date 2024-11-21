@@ -54,7 +54,7 @@ button:hover {
 
 #result {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 12px;
   color: #333;
 }
 @media screen and (max-width:480px){
