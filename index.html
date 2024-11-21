@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Eligibility Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>University Eligibility Checker</h1>
+    <form id="eligibility-form">
+      <label for="sscGPA">SSC GPA (out of 5):</label>
+      <input type="number" id="sscGPA" step="0.01" max="5" min="0" required>
+
+      <label for="hscGPA">HSC GPA (out of 5):</label>
+      <input type="number" id="hscGPA" step="0.01" max="5" min="0" required>
+
+      <label for="hscMarks">HSC Marks (out of 600 for Physics, Chemistry, Math):</label>
+      <input type="number" id="hscMarks" max="600" min="0" required>
+
+      <label for="hscSubjectsGPA">HSC GPA for Physics, Chemistry, Math, and English (out of 20):</label>
+      <input type="number" id="hscSubjectsGPA" step="0.01" max="20" min="0" required>
+
+      <label for="hscYear">HSC Year:</label>
+      <input type="number" id="hscYear" max="2100" min="2000" required>
+
+      <button type="submit">Check Eligibility</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+  
+  <div class="footer">
+    <p>&#169 Created by Md Imtiaz Khondokar Supto</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
