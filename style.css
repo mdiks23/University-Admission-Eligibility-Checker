@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 680px;
   margin: 18px auto;
   background: #F1B598;
   padding: 20px;
@@ -14,9 +14,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h2 {
   text-align: center;
   color: #333;
+  font-family:sans serif;
 }
 
 label {
