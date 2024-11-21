@@ -61,4 +61,7 @@ button:hover {
   .container{
     max-width: 300px;
   }
+  #result {
+  font-size: 17px;
+}
 }
